@@ -1,51 +1,44 @@
-# Overview
+# CI/CD Pipeline with Azure
 
 <TODO: complete this with an overview of your project>
 
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* Link to a Trello board for the project - https://trello.com/b/llt4ZdLO/dashboard-product
+* Link to a spreadsheet - https://docs.google.com/spreadsheets/d/1UcTZewcBMVmohPBi6f4P33vRomBq7HhP55T367MEsXQ/edit?usp=sharing
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram - This can be found in the github repo.
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+To run this project follow these steps - 
 
-* Project running on Azure App Service
+* First of all set up SSH Keys in your azure cloud shell and then clone the project there.
 
-* Project cloned into Azure Cloud Shell
+* Create a virtual environment for your application.
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+* Now run the command `make all` which will execute the makefile and all the test cases will run.
 
-* Output of a test run
+* Next set up Github Actions in your repo by adding the yml file present in the repository.
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+* Go to Azure Deveops page and there integrate your github repo and create the azure pipeline for it. You can use the yaml file present in repo for it.
 
-* Running Azure App Service from Azure Pipelines automatic deployment
+* After successfully configuring Azure pipelines and github actions check that if you make any commit then the pipeline is triggered and it runs successfully.
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
+* Deploy the flask-sklearn app to Azure app Service with the command `az webapp up -n <name of webapp>`
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+* When the app is successfully deployed then update the app service endpoint in the code and then run ./make_predict_azure file to make a prediction.
 
-* Output of streamed log files from deployed application
-
-> 
+* You will be able to see the successfull prediction made. Check the screenshots folder to check all the required screenshots.
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+* Adding more test cases.
+* Creating a UI for making predictions.
+* Using Github Actions instead of Azure pipelines.
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
-
+Link for Demo Video -> https://youtu.be/y4NFgHeaWtY
 
