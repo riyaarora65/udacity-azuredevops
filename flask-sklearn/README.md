@@ -32,11 +32,14 @@ To run this project follow these steps -
 
 * You will be able to see the successfull prediction made. Check the screenshots folder to check all the required screenshots.
 
+* You can also run this project in Docker and Kubernetes by using the scripts provided in the repo.
+
 ## Enhancements
 
 * Adding more test cases.
 * Creating a UI for making predictions.
 * Using Github Actions instead of Azure pipelines.
+* Run the app on Kubernetes cluster
 
 ## Demo 
 
