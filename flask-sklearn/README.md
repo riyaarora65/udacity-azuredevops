@@ -1,9 +1,8 @@
 # CI/CD Pipeline with Azure
 
-<TODO: complete this with an overview of your project>
+This project is about learning about the Devops practice being used in the industry. It makes you understand the concept and workflow about Continous Integration and Continous Delivery.
 
 ## Project Plan
-<TODO: Project Plan
 
 * Link to a Trello board for the project - https://trello.com/b/llt4ZdLO/dashboard-product
 * Link to a spreadsheet - https://docs.google.com/spreadsheets/d/1UcTZewcBMVmohPBi6f4P33vRomBq7HhP55T367MEsXQ/edit?usp=sharing
