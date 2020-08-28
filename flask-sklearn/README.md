@@ -28,7 +28,7 @@ To run this project follow these steps -
 
 * Deploy the flask-sklearn app to Azure app Service with the command `az webapp up -n <name of webapp>`
 
-* When the app is successfully deployed then update the app service endpoint in the code and then run ./make_predict_azure file to make a prediction.
+* When the app is successfully deployed then update the app service endpoint in the code and then run script `./make_predict_azure_app` file to make a prediction.
 
 * You will be able to see the successfull prediction made. Check the screenshots folder to check all the required screenshots.
 
