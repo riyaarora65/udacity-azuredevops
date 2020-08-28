@@ -19,9 +19,10 @@ To run this project follow these steps -
 
 * Now run the command `make all` which will execute the makefile and all the test cases will run.
 
-* Next set up Github Actions in your repo by adding the yml file present in the repository.
+* Next set up Github Actions in your repo by adding the yml file present in the .github/workflows folder.
 
-* Go to Azure Deveops page and there integrate your github repo and create the azure pipeline for it. You can use the yaml file present in repo for it.
+* Go to Azure Deveops page and there integrate your github repo and create the azure pipeline for it. You can use the 
+azure-pipelines.yml  file present in the root directory for this purpose.
 
 * After successfully configuring Azure pipelines and github actions check that if you make any commit then the pipeline is triggered and it runs successfully.
 
