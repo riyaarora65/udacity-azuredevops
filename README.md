@@ -1,5 +1,4 @@
-https://github.com/riyaarora65/udacity-azuredevops/workflows/Python%sapplication%stest%swith%sGithub%sActions/badge.svg
-
+![Python application test with Github Actions](https://github.com/riyaarora65/udacity-azuredevops/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 
 ## udacity-azuredevops.
 
