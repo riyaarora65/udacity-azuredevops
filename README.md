@@ -7,3 +7,5 @@
 * The screenshots folder contains all the necessary screenshots required.
 
 * The Architecture diagram can also be found in the flask-sklearn folder.
+
+* The Status badge for Github Actions workflow can be seen above.
