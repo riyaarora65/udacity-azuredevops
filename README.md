@@ -1,4 +1,4 @@
-https://github.com/riyaarora65/udacity-azuredevops/workflows//badge.svg
+https://github.com/riyaarora65/udacity-azuredevops/workflows/Python%sapplication%stest%swith%sGithub%sActions/badge.svg
 
 
 ## udacity-azuredevops.
