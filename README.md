@@ -1,3 +1,6 @@
+https://github.com/riyaarora65/udacity-azuredevops/workflows//badge.svg
+
+
 ## udacity-azuredevops.
 
 * Navigate to flask-sklearn folder and you can find all the project files there.
