@@ -53,9 +53,9 @@ azure-pipelines.yml  file present in the root directory for this purpose.
 
 ![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/Prediction.png?raw=true)
 
-*Run locust command in your project to perform a load test on the API. You can see an output like this.
+* Run locust command in your project to perform a load test on the API. You can see an output like this.
 
-![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/locust%20ouput%202.png?raw=true)
+![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/locust%20output%202.png?raw=true)
 
 ![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/locust%20output3.png?raw=true)
 
