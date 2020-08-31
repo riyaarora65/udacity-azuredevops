@@ -9,7 +9,7 @@ This project is about learning about the Devops practice being used in the indus
 
 ## Instructions
 
-* Architectural Diagram - This can be found in the github repo.
+* Architectural Diagram - ![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/Azure%20Architecture.png?raw=true)
 
 To run this project follow these steps - 
 
