@@ -33,6 +33,8 @@ azure-pipelines.yml  file present in the root directory for this purpose.
 
 * After successfully configuring Azure pipelines and github actions check that if you make any commit then the pipeline is triggered and it runs successfully.
 
+![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/azurepipeline1.png?raw=true)
+![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/azurepipeline2.png?raw=true)
 ![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/Successfull%20Azure%20Pipeline.png?raw=true)
 
 ![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/Successfull%20Github%20Action%20Workflow.png?raw=true)
@@ -43,7 +45,13 @@ azure-pipelines.yml  file present in the root directory for this purpose.
 
 * Deploy the flask-sklearn app to Azure app Service with the command `az webapp up -n <name of webapp>`
 
-![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/Webapp%20up.png?raw=true)
+![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/terminalwebapp.png?raw=true)
+
+![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/webapp.png?raw=true)
+
+![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/webappin%20appservice.png?raw=true)
+
+![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/webappinappservice2.png?raw=true)
 
 ![alt text](https://github.com/riyaarora65/udacity-azuredevops/blob/master/flask-sklearn/screenshots/Live%20Webapp.png?raw=true)
 
