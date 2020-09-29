@@ -17,8 +17,8 @@ One main issue is having **missing data** while conducting the analysis, which c
 The first thing to do is to always identify the missing values within the datasetv [Panda Docs](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.isnull.html).  
 Once you have found the missing data, you can do the following.
 - If there are columns with a few rows of missing data, the Dropna method [Dropna](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.dropna.html) could be used to drop the missing rows. 
-- If there are rows with missing data, the Fillna method [Fillna]( https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.fillna.html) can be used instead of dropping them completely. 
-  *Note: This method can vary with the data and the project.* 
+- If there are rows with missing data, the Fillna method [Fillna]( https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.fillna.html) can be used instead of dropping them completely.  
+*Note: This method can vary with the data and the project.* 
 
 
 
